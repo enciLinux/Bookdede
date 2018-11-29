@@ -1,0 +1,10 @@
+.root {
+    -fx-base: #704214;
+    -fx-focus-color: transparent;
+}
+#fondoGrid{
+    -fx-background-image: url("../img/wallpaper.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
