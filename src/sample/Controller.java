@@ -1,6 +1,3 @@
-package sample;
-
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -16,7 +13,7 @@ public class Controller {
    // ...xd
     public void onRegistroButtonClick(ActionEvent actionEvent) throws IOException {
      
-        Parent root = FXMLLoader.load(getClass().getResource("registro.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("fxml/registro.fxml"));
         Stage stage = new Stage();
         stage.setTitle("Registro");
         stage.setScene(new Scene(root));
