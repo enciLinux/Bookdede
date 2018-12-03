@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="66fd67b0-72e0-47a6-ad28-6a27111187c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/fxml/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Registro.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,51 +20,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            <state>
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding>
-                <element signature="method#start#0;class#Main#0" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/res/fxml/sample.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="285" selection-start-line="10" selection-start-column="285" selection-end-line="10" selection-end-column="285" />
-              <folding>
-                <element signature="n#GridPane#0;n#!!top" />
-                <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" />
-                <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" />
-                <element signature="n#children#0;n#GridPane#0;n#!!top" />
-                <element signature="n#Button#0;n#children#0;n#GridPane#0;n#!!top" />
-                <element signature="n#GridPane.margin#0;n#Button#0;n#children#0;n#GridPane#0;n#!!top" />
-                <element signature="n#font#0;n#Button#0;n#children#0;n#GridPane#0;n#!!top" />
-                <element signature="n#cursor#0;n#Button#0;n#children#0;n#GridPane#0;n#!!top" />
-                <element signature="n#Button#1;n#children#0;n#GridPane#0;n#!!top" />
-                <element signature="n#GridPane.margin#0;n#Button#1;n#children#0;n#GridPane#0;n#!!top" />
-                <element signature="n#font#0;n#Button#1;n#children#0;n#GridPane#0;n#!!top" />
-                <element signature="n#cursor#0;n#Button#1;n#children#0;n#GridPane#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-              <folding>
-                <element signature="method#onRegistroButtonClick#0;class#Controller#0" />
-                <element signature="method#onLoginButtonClick#0;class#Controller#0" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Registro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -80,12 +70,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/Registro.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/res/sample.fxml" />
         <option value="$PROJECT_DIR$/src/res/controllers/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/Registro.java" />
         <option value="$PROJECT_DIR$/src/res/fxml/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
       </list>
     </option>
   </component>
@@ -115,6 +105,12 @@
               <item name="Bookdede" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bookdede" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bookdede" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bookdede" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -126,7 +122,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543832743230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543832875051" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -152,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Bookdede" />
@@ -173,10 +169,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +197,7 @@
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17121212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -207,7 +207,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46091205" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46091205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,9 +272,6 @@
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Registro.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/res/controllers">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -283,44 +280,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/res/fxml/sample.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="285" selection-start-line="10" selection-start-column="285" selection-end-line="10" selection-end-column="285" />
+        <state relative-caret-position="280">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
-            <element signature="n#GridPane#0;n#!!top" />
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#!!top" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#!!top" />
             <element signature="n#children#0;n#GridPane#0;n#!!top" />
-            <element signature="n#Button#0;n#children#0;n#GridPane#0;n#!!top" />
-            <element signature="n#GridPane.margin#0;n#Button#0;n#children#0;n#GridPane#0;n#!!top" />
-            <element signature="n#font#0;n#Button#0;n#children#0;n#GridPane#0;n#!!top" />
-            <element signature="n#cursor#0;n#Button#0;n#children#0;n#GridPane#0;n#!!top" />
             <element signature="n#Button#1;n#children#0;n#GridPane#0;n#!!top" />
-            <element signature="n#GridPane.margin#0;n#Button#1;n#children#0;n#GridPane#0;n#!!top" />
-            <element signature="n#font#0;n#Button#1;n#children#0;n#GridPane#0;n#!!top" />
             <element signature="n#cursor#0;n#Button#1;n#children#0;n#GridPane#0;n#!!top" />
           </folding>
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Registro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="method#onRegistroButtonClick#0;class#Controller#0" />
-            <element signature="method#onLoginButtonClick#0;class#Controller#0" />
-          </folding>
+        <state relative-caret-position="40">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        <state>
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding>
-            <element signature="method#start#0;class#Main#0" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
         </state>
       </provider>
     </entry>
