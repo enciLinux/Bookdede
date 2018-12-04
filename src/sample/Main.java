@@ -23,6 +23,8 @@ public class Main extends Application {
             new MySQLConnect();
         } catch (SQLException e) {
             e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
         }
         launch(args);
     }
