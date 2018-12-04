@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66fd67b0-72e0-47a6-ad28-6a27111187c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/MySQLConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Bookdede.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bookdede.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/fxml/agregarLibro.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/.idea/Bookdede.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/.idea/Bookdede.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/perfil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/perfil.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/principal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/registro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/perfil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/perfil.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/principal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/registro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/perfil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/perfil.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/principal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/registro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/fxml/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/fxml/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/fxml/principal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res/fxml/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/fxml/registro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Registro.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,17 +13,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="340">
+              <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding>
                 <element signature="method#initialize#0;class#Principal#0" />
                 <element signature="e#729#761#1" />
                 <element signature="method#agregarLibro#0;class#Principal#0" />
                 <element signature="method#hideDefaultScreen#0;class#Principal#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/res/fxml/agregarLibro.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/res/fxml/agregarLibro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -105,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/sample/Usuario.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/Principal.java" />
+        <option value="$PROJECT_DIR$/src/res/fxml/agregarLibro.fxml" />
+        <option value="$PROJECT_DIR$/src/res/fxml/agregarLibro.java" />
       </list>
     </option>
   </component>
@@ -152,6 +157,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Bookdede" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -159,7 +168,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543915904768" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543928156386" />
     <property name="last_opened_file_path" value="/usr/share/java/mysql-connector-java-8.0.13.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -240,10 +249,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20530303" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20530303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -253,7 +261,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848485" visible="true" weight="0.46091205" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848485" weight="0.46091205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -301,9 +309,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/res/fxml/perfil.fxml">
@@ -434,14 +439,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="340">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <element signature="method#initialize#0;class#Principal#0" />
             <element signature="e#729#761#1" />
             <element signature="method#agregarLibro#0;class#Principal#0" />
             <element signature="method#hideDefaultScreen#0;class#Principal#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/fxml/agregarLibro.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/fxml/agregarLibro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
