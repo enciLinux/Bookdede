@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.ComboBox?>
@@ -11,139 +12,124 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="500.0" minWidth="400.0" prefHeight="691.0" prefWidth="761.0" stylesheets="@../css/main.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
-  <columnConstraints>
-    <ColumnConstraints minWidth="60.0" />
-    <ColumnConstraints hgrow="ALWAYS" minWidth="60.0" />
-      <ColumnConstraints hgrow="NEVER" minWidth="60.0" />
-      <ColumnConstraints hgrow="NEVER" minWidth="60.0" />
-      <ColumnConstraints hgrow="NEVER" minWidth="60.0" />
-  </columnConstraints>
-  <rowConstraints>
-      <RowConstraints maxHeight="172.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
-    <RowConstraints maxHeight="204.0" minHeight="40.0" prefHeight="71.0" vgrow="SOMETIMES" />
-    <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-    <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-      <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-      <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-      <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-      <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-      <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-      <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-      <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-      <RowConstraints maxHeight="136.0" minHeight="30.0" prefHeight="136.0" vgrow="SOMETIMES" />
-  </rowConstraints>
-   <children>
-      <TextField GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
-         <GridPane.margin>
-            <Insets right="5.0" />
-         </GridPane.margin>
-      </TextField>
-      <Button minWidth="60.0" mnemonicParsing="false" text="Agregar" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.vgrow="NEVER">
-         <GridPane.margin>
-            <Insets right="5.0" />
-         </GridPane.margin>
-      </Button>
-      <Button minWidth="60.0" mnemonicParsing="false" text="Eliminar" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1">
-         <GridPane.margin>
-            <Insets right="5.0" />
-         </GridPane.margin>
-      </Button>
-      <Slider GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="3">
-         <GridPane.margin>
-            <Insets left="10.0" right="10.0" />
-         </GridPane.margin>
-      </Slider>
-      <ComboBox GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="7">
-         <GridPane.margin>
-            <Insets left="10.0" right="10.0" />
-         </GridPane.margin>
-      </ComboBox>
-      <ScrollPane prefHeight="449.0" prefWidth="537.0" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.rowSpan="2147483647" GridPane.vgrow="ALWAYS">
-         <GridPane.margin>
-            <Insets bottom="10.0" right="10.0" />
-         </GridPane.margin>
-         <content>
-            <GridPane prefHeight="531.0" prefWidth="534.0">
-              <columnConstraints>
-                <ColumnConstraints hgrow="SOMETIMES" maxWidth="173.0" minWidth="10.0" prefWidth="85.0" />
-                <ColumnConstraints hgrow="SOMETIMES" maxWidth="347.0" minWidth="8.0" prefWidth="85.0" />
-                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="381.0" minWidth="10.0" prefWidth="381.0" />
-              </columnConstraints>
-              <rowConstraints>
-                <RowConstraints maxHeight="250.0" minHeight="10.0" prefHeight="250.0" vgrow="SOMETIMES" />
-                <RowConstraints maxHeight="155.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
-                <RowConstraints maxHeight="250.0" minHeight="10.0" prefHeight="250.0" vgrow="SOMETIMES" />
-                  <RowConstraints maxHeight="183.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
-              </rowConstraints>
-               <children>
-                  <ImageView fitHeight="198.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
-                     <image>
-                        <Image url="@../img/descarga.jpg" />
-                     </image>
-                  </ImageView>
-                  <Button mnemonicParsing="false" text="Button" GridPane.halignment="RIGHT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="TOP" GridPane.vgrow="NEVER">
-                     <GridPane.margin>
-                        <Insets right="5.0" />
-                     </GridPane.margin>
-                  </Button>
-                  <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.valignment="TOP" GridPane.vgrow="NEVER">
-                     <GridPane.margin>
-                        <Insets />
-                     </GridPane.margin>
-                  </Button>
-               </children>
-            </GridPane>
-         </content>
-      </ScrollPane>
-      <CheckBox mnemonicParsing="false" text="Descargable" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="10" />
-      <DatePicker GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="5">
-         <GridPane.margin>
-            <Insets left="10.0" right="10.0" />
-         </GridPane.margin>
-      </DatePicker>
-      <MenuBar GridPane.columnSpan="2147483647">
-        <menus>
-          <Menu mnemonicParsing="false" text="File">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Close" />
-            </items>
-          </Menu>
-          <Menu mnemonicParsing="false" text="Edit">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Delete" />
-            </items>
-          </Menu>
-          <Menu mnemonicParsing="false" text="Help">
-            <items>
-              <MenuItem mnemonicParsing="false" text="About" />
-            </items>
-          </Menu>
-        </menus>
-      </MenuBar>
-      <Label text="Puntuación mínima:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
-      <Label text="Fecha de salida:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="4" GridPane.valignment="BOTTOM" />
-      <Label text="Género:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="6" GridPane.valignment="BOTTOM" />
-      <Label text="Editorial:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="8" GridPane.valignment="BOTTOM" />
-      <ComboBox GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="9">
-         <GridPane.margin>
-            <Insets left="10.0" right="10.0" />
-         </GridPane.margin>
-      </ComboBox>
-      <Button minWidth="60.0" mnemonicParsing="false" text="Perfil" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1">
-         <GridPane.margin>
-            <Insets />
-         </GridPane.margin>
-      </Button>
-   </children>
-   <padding>
-      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-   </padding>
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="500.0" minWidth="400.0" prefHeight="590.0" prefWidth="770.0" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Principal">
+    <columnConstraints>
+        <ColumnConstraints minWidth="60.0" />
+        <ColumnConstraints hgrow="ALWAYS" minWidth="60.0" />
+        <ColumnConstraints hgrow="NEVER" minWidth="60.0" />
+        <ColumnConstraints hgrow="NEVER" minWidth="60.0" />
+        <ColumnConstraints hgrow="NEVER" minWidth="60.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="172.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="204.0" minHeight="40.0" prefHeight="71.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="136.0" minHeight="30.0" prefHeight="136.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <TextField GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+            <GridPane.margin>
+                <Insets right="5.0" />
+            </GridPane.margin>
+        </TextField>
+        <Button fx:id="bAgregar" alignment="CENTER" minWidth="60.0" mnemonicParsing="false" onAction="#aAgregarLibro" text="Agregar" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.vgrow="NEVER">
+            <GridPane.margin>
+                <Insets left="5.0" right="5.0" />
+            </GridPane.margin>
+        </Button>
+        <Button fx:id="bEliminar" minWidth="60.0" mnemonicParsing="false" text="Eliminar" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <GridPane.margin>
+                <Insets left="5.0" right="5.0" />
+            </GridPane.margin>
+        </Button>
+        <Slider blockIncrement="1.0" majorTickUnit="1.0" max="10.0" minorTickCount="1" showTickLabels="true" snapToTicks="true" value="5.0" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="3">
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Slider>
+        <ComboBox GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="7">
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+        </ComboBox>
+        <ScrollPane maxHeight="-Infinity" pannable="true" prefHeight="460.0" prefWidth="460.0" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.rowSpan="2147483647" GridPane.vgrow="ALWAYS">
+            <GridPane.margin>
+                <Insets bottom="10.0" right="10.0" />
+            </GridPane.margin>
+            <padding>
+                <Insets left="10.0" />
+            </padding>
+            <content>
+                <TableView prefHeight="452.0" prefWidth="539.0">
+                    <columns>
+                        <TableColumn prefWidth="75.0" />
+                        <TableColumn prefWidth="75.0" />
+                    </columns>
+                </TableView>
+            </content>
+        </ScrollPane>
+        <CheckBox mnemonicParsing="false" text="Descargable" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="10" />
+        <DatePicker GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="5">
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+        </DatePicker>
+        <MenuBar GridPane.columnSpan="2147483647" GridPane.valignment="TOP">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+            <GridPane.margin>
+                <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+            </GridPane.margin>
+        </MenuBar>
+        <Label text="Puntuación mínima:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
+        <Label text="Fecha de salida:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="4" GridPane.valignment="BOTTOM" />
+        <Label text="Género:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="6" GridPane.valignment="BOTTOM" />
+        <Label text="Editorial:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="8" GridPane.valignment="BOTTOM" />
+        <ComboBox GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="9">
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0" />
+            </GridPane.margin>
+        </ComboBox>
+        <Button fx:id="bPerfil" minWidth="60.0" mnemonicParsing="false" text="Perfil" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <GridPane.margin>
+                <Insets left="5.0" right="5.0" />
+            </GridPane.margin>
+        </Button>
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
 </GridPane>

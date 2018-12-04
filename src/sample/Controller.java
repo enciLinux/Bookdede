@@ -1,6 +1,7 @@
 package sample;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -11,24 +12,32 @@ import javafx.stage.WindowEvent;
 import java.io.IOException;
 
 public class Controller {
-    public Button aRegistro;
-   // ...xd
+    @FXML
+    private Button aRegistro;
+
     public void onRegistroButtonClick(ActionEvent actionEvent) throws IOException {
-     
         Parent root = FXMLLoader.load(getClass().getResource("../fxml/registro.fxml"));
         Stage stage = new Stage();
-        stage.setTitle("Registro");
+        stage.setTitle("Bookdede - Registro");
         stage.setScene(new Scene(root));
+        hideDefaultScreen(stage, "hide");
+    }
 
-        Stage registroStage = (Stage)aRegistro.getScene().getWindow();
+    public void onLoginButtonClick(ActionEvent actionEvent) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("../fxml/login.fxml"));
+        Stage stage = new Stage();
+        stage.setTitle("Bookdede - Login");
+        stage.setScene(new Scene(root));
+        hideDefaultScreen(stage, "close");
+    }
 
-        stage.setOnHidden((WindowEvent e) -> registroStage.show());
+    private void hideDefaultScreen(Stage stage, String type) {
+        Stage defaultScreen = (Stage) aRegistro.getScene().getWindow();
+        if (type.equals("hide"))
+            stage.setOnHidden((WindowEvent e) -> defaultScreen.show());
 
+        defaultScreen.close();
         stage.show();
-
-        registroStage.hide();
     }
 
-    public void onLoginButtonClick(ActionEvent actionEvent) {
-    }
 }
