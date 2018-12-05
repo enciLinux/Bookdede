@@ -1,10 +1,90 @@
 .root {
-    -fx-base: #704214;
+    -fx-base: #00BFFF;
     -fx-focus-color: transparent;
-}
+    -fx-background-image: url("../img/wallpaperApp.png");
+    -fx-background-repeat: repeat;
+   }
 #fondoGrid{
     -fx-background-image: url("../img/wallpaper.jpg");
     -fx-background-repeat: no-repeat;
     -fx-background-size: cover;
     -fx-background-position: center;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-weight:bold;
+}
+.label#jlSinopsis, .label#jlImg,.label#jlPDF {
+    -fx-font-size: 12px;
+    -fx-font-weight:normal;
+}
+.label.nombreLibro {
+    -fx-font-size: 22px;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight:bold;
+    -fx-effect: dropshadow(three-pass-box, #0080FF, 10, 0.5, 0, 0.5);
+}
+#fondoFiltros{
+    -fx-background-color:#81DAF5;
+    -fx-opacity:0.2;
+}
+
+.button{
+    -fx-cursor:hand;
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #0101DF 0%, #0B0B3B 100%),
+       #0B0B3B,
+        #0101DF,
+        radial-gradient(center 50% 50%, radius 100%, #0080FF, #0B2161);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #0101DF 0%, #0B0B3B 100%),
+        #0B0B3B,
+        #0101DF,
+        radial-gradient(center 50% 50%, radius 100%, #0080FF, #0B0B3B);
+    -fx-text-fill: #fff;
+}
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #0B2161 , 0,0,0,2 );
+}
+
+#libro#lSinopsis{
+    -fx-font-size: 14px;
+}
+
+.text-input:not(#calendario){
+    -fx-background-radius: 40;
+    -fx-font-size: 13px;
+    -fx-font-family: "Segoe UI Semibold";
+}
+.text-input:hover{
+    -fx-background-color: #0080FF;
+}
+.text-input:focus{
+    -fx-background-color: #0080FF;
+}
+.label.titulo{
+    -fx-font-size: 40px;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight:bold;
+    -fx-text-fill: #fff;
+    -fx-effect: dropshadow(three-pass-box, #0080FF, 10, 0.7, 0, 0.5);
+}
+.label.titulo#principal{
+    -fx-font-size: 80px;
+    -fx-text-fill: #0080FF;
+    -fx-effect: dropshadow(three-pass-box, white, 10, 0.5, 0.5, 0.5);
 }

@@ -94,14 +94,14 @@ public class Registro implements Initializable {
 
         if (pass.equals(pass2)) {
             boolean existe = comprobarUsuario(nick, correo);
-            if(!existe)
+            if (!existe)
                 insertarUsuario(nick, nombre, correo, pass, provincia, cp, genero, anyoNac, telefono);
         }
     }
 
     private boolean comprobarUsuario(String nick, String correo) throws SQLException {
         Statement st = MySQLConnect.getInstance().createStatement();
-        String query = "SELECT nick,email FROM usuarios WHERE nick='"+nick+"' OR email='"+correo+"';";
+        String query = "SELECT nick,email FROM usuarios WHERE nick='" + nick + "' OR email='" + correo + "';";
         ResultSet rs = st.executeQuery(query);
         if (rs.next()) {
             String error = "Este usuario ya existe.";
@@ -113,14 +113,14 @@ public class Registro implements Initializable {
 
     private void alert(String tipo, String mensaje) {
         Alert dialogoAlerta = null;
-        if(tipo.equals("error")){
+        if (tipo.equals("error")) {
             dialogoAlerta = new Alert(Alert.AlertType.ERROR);
             dialogoAlerta.setTitle("Error");
             dialogoAlerta.setHeaderText(null);
         }
-        if(tipo.equals("exito")){
+        if (tipo.equals("exito")) {
             dialogoAlerta = new Alert(Alert.AlertType.INFORMATION);
-            dialogoAlerta.setTitle("Error");
+            dialogoAlerta.setTitle("Éxito");
             dialogoAlerta.setHeaderText(null);
         }
 

@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Bookdede">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bookdede</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="enabledSigning" value="true" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="Bookdede" />
+        <option name="vendor" value="" />
+        <option name="version" value="1.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Bookdede.jar">
+        <element id="module-output" name="Bookdede" />
+        <element id="library" level="project" name="controlsfx-8.40.14" />
+        <element id="library" level="project" name="fontawesomefx-8.9" />
+        <element id="library" level="project" name="mysql-connector-java-8.0.13" />
+      </element>
+    </root>
+  </artifact>
+</component>

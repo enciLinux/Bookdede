@@ -20,12 +20,10 @@ import java.sql.Statement;
 
 public class Login {
 
-    @FXML
-    private Button bLogin;
-    @FXML
-    private TextField jtfUsuario;
-    @FXML
-    private PasswordField jtfPass;
+    @FXML private Button bARegistro;
+    @FXML private Button bLogin;
+    @FXML private TextField jtfUsuario;
+    @FXML private PasswordField jtfPass;
 
     public void iniciarSesion(ActionEvent actionEvent) throws SQLException, IOException {
         String usuario = jtfUsuario.getText();
@@ -70,7 +68,7 @@ public class Login {
         }
         if (tipo.equals("exito")) {
             dialogoAlerta = new Alert(Alert.AlertType.INFORMATION);
-            dialogoAlerta.setTitle("Error");
+            dialogoAlerta.setTitle("Éxito");
             dialogoAlerta.setHeaderText(null);
         }
 
@@ -85,4 +83,20 @@ public class Login {
         defaultScreen.close();
     }
 
+    public void aRegistro(ActionEvent actionEvent) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("../fxml/registro.fxml"));
+        Stage stage = new Stage();
+        stage.setTitle("Bookdede - Registro");
+        stage.setScene(new Scene(root));
+        hideDefaultScreen(stage, "hide");
+    }
+
+    private void hideDefaultScreen(Stage stage, String type) {
+        Stage defaultScreen = (Stage) bARegistro.getScene().getWindow();
+        if (type.equals("hide"))
+            stage.setOnHidden((WindowEvent e) -> defaultScreen.show());
+
+        defaultScreen.close();
+        stage.show();
+    }
 }

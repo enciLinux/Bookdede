@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Bookdede.jnlp">
+  <information>
+    <title>Bookdede</title>
+    <vendor>Unknown</vendor>
+    <description>Bookdede</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Bookdede.jar" size="1504952" download="eager" />
+    <jar href="controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="mysql-connector-java-8.0.13.jar" size="2132635" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="Bookdede" />
+  <update check="background"/>
+</jnlp>

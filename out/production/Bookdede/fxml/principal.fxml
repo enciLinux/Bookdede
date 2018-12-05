@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
@@ -12,124 +13,170 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Slider?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="500.0" minWidth="400.0" prefHeight="590.0" prefWidth="770.0" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Principal">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="500.0" minWidth="400.0" prefHeight="590.0"
+          prefWidth="770.0" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8.0.171"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Principal">
     <columnConstraints>
-        <ColumnConstraints minWidth="60.0" />
-        <ColumnConstraints hgrow="ALWAYS" minWidth="60.0" />
-        <ColumnConstraints hgrow="NEVER" minWidth="60.0" />
-        <ColumnConstraints hgrow="NEVER" minWidth="60.0" />
-        <ColumnConstraints hgrow="NEVER" minWidth="60.0" />
+        <ColumnConstraints minWidth="60.0"/>
+        <ColumnConstraints hgrow="ALWAYS" minWidth="60.0"/>
+        <ColumnConstraints hgrow="NEVER" minWidth="60.0"/>
+        <ColumnConstraints hgrow="NEVER" minWidth="60.0"/>
+        <ColumnConstraints hgrow="NEVER" minWidth="60.0"/>
     </columnConstraints>
     <rowConstraints>
-        <RowConstraints maxHeight="172.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
-        <RowConstraints maxHeight="204.0" minHeight="40.0" prefHeight="71.0" vgrow="SOMETIMES" />
-        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-        <RowConstraints minHeight="40.0" vgrow="SOMETIMES" />
-        <RowConstraints maxHeight="136.0" minHeight="30.0" prefHeight="136.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="172.0" minHeight="30.0" prefHeight="33.0" vgrow="SOMETIMES"/>
+        <RowConstraints maxHeight="204.0" minHeight="70.0" prefHeight="71.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="40.0" vgrow="SOMETIMES"/>
+        <RowConstraints maxHeight="136.0" minHeight="30.0" prefHeight="136.0" vgrow="SOMETIMES"/>
     </rowConstraints>
     <children>
-        <TextField GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+        <AnchorPane fx:id="fondoFiltros" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="2"
+                    GridPane.rowSpan="2147483647">
             <GridPane.margin>
-                <Insets right="5.0" />
+                <Insets bottom="20.0" top="10.0"/>
+            </GridPane.margin>
+        </AnchorPane>
+        <TextField fx:id="jtfNombre" onKeyReleased="#buscarPorTecleo" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS"
+                   GridPane.rowIndex="1">
+            <GridPane.margin>
+                <Insets right="5.0"/>
             </GridPane.margin>
         </TextField>
-        <Button fx:id="bAgregar" alignment="CENTER" minWidth="60.0" mnemonicParsing="false" onAction="#aAgregarLibro" text="Agregar" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.vgrow="NEVER">
+        <Button fx:id="bAgregar" alignment="CENTER" minWidth="60.0" mnemonicParsing="false" onAction="#aAgregarLibro"
+                textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.hgrow="NEVER"
+                GridPane.rowIndex="1" GridPane.vgrow="NEVER">
             <GridPane.margin>
-                <Insets left="5.0" right="5.0" />
+                <Insets left="5.0" right="5.0"/>
             </GridPane.margin>
+            <graphic>
+                <FontAwesomeIconView fill="WHITE" glyphName="PLUS" size="18"/>
+            </graphic>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </padding>
         </Button>
-        <Button fx:id="bEliminar" minWidth="60.0" mnemonicParsing="false" text="Eliminar" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+        <Button fx:id="bRefrescar" minWidth="60.0" mnemonicParsing="false" onAction="#refrescar"
+                GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1">
             <GridPane.margin>
-                <Insets left="5.0" right="5.0" />
+                <Insets left="5.0" right="5.0"/>
             </GridPane.margin>
+            <graphic>
+                <FontAwesomeIconView fill="WHITE" glyphName="REFRESH" size="18"/>
+            </graphic>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </padding>
         </Button>
-        <Slider blockIncrement="1.0" majorTickUnit="1.0" max="10.0" minorTickCount="1" showTickLabels="true" snapToTicks="true" value="5.0" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="3">
+        <Slider fx:id="jsValoracion" blockIncrement="1.0" majorTickUnit="1.0" max="10.0" minorTickCount="1"
+                onDragDetected="#filtrarPuntuacion" showTickLabels="true" snapToTicks="true" value="5.0"
+                GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="3">
             <GridPane.margin>
-                <Insets left="10.0" right="10.0" />
+                <Insets left="10.0" right="10.0"/>
             </GridPane.margin>
             <cursor>
-                <Cursor fx:constant="HAND" />
+                <Cursor fx:constant="HAND"/>
             </cursor>
         </Slider>
-        <ComboBox GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="7">
+        <ComboBox fx:id="jcbGenero" onAction="#filtrarGenero" GridPane.columnIndex="2" GridPane.columnSpan="3"
+                  GridPane.rowIndex="7">
             <GridPane.margin>
-                <Insets left="10.0" right="10.0" />
+                <Insets left="10.0" right="10.0"/>
             </GridPane.margin>
         </ComboBox>
-        <ScrollPane maxHeight="-Infinity" pannable="true" prefHeight="460.0" prefWidth="460.0" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.rowSpan="2147483647" GridPane.vgrow="ALWAYS">
+        <ScrollPane fitToHeight="true" fitToWidth="true" maxHeight="-Infinity" pannable="true" prefHeight="460.0"
+                    prefWidth="460.0" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2"
+                    GridPane.rowSpan="2147483647" GridPane.vgrow="ALWAYS">
             <GridPane.margin>
-                <Insets bottom="10.0" right="10.0" />
+                <Insets bottom="10.0" right="10.0"/>
             </GridPane.margin>
             <padding>
-                <Insets left="10.0" />
+                <Insets left="10.0"/>
             </padding>
             <content>
-                <TableView prefHeight="452.0" prefWidth="539.0">
-                    <columns>
-                        <TableColumn prefWidth="75.0" />
-                        <TableColumn prefWidth="75.0" />
-                    </columns>
-                </TableView>
+                <GridPane fx:id="gridLibros" prefHeight="458.0" prefWidth="515.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                    </columnConstraints>
+                </GridPane>
             </content>
         </ScrollPane>
-        <CheckBox mnemonicParsing="false" text="Descargable" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="10" />
-        <DatePicker GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="5">
+        <CheckBox fx:id="jcDescargable" mnemonicParsing="false" onAction="#filtrarDescargable" text="Descargable"
+                  GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="10"/>
+        <DatePicker fx:id="jdFecha" onAction="#filtrarFecha" GridPane.columnIndex="2" GridPane.columnSpan="3"
+                    GridPane.rowIndex="5">
             <GridPane.margin>
-                <Insets left="10.0" right="10.0" />
+                <Insets left="10.0" right="10.0"/>
             </GridPane.margin>
         </DatePicker>
         <MenuBar GridPane.columnSpan="2147483647" GridPane.valignment="TOP">
             <menus>
-                <Menu mnemonicParsing="false" text="File">
+                <Menu mnemonicParsing="false" text="Usuario">
                     <items>
-                        <MenuItem mnemonicParsing="false" text="Close" />
+                        <MenuItem fx:id="bEditarPerfil" mnemonicParsing="false" onAction="#aEditarPerfil"
+                                  text="Editar Perfil">
+                            <graphic>
+                                <FontAwesomeIconView fill="WHITE" glyphName="PENCIL"/>
+                            </graphic>
+                        </MenuItem>
+                        <MenuItem fx:id="bCerrarSesion" mnemonicParsing="false" onAction="#cerrarSesion"
+                                  text="Cerrar Sesión">
+                            <graphic>
+                                <FontAwesomeIconView fill="WHITE" glyphName="SIGN_OUT"/>
+                            </graphic>
+                        </MenuItem>
                     </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="Edit">
-                    <items>
-                        <MenuItem mnemonicParsing="false" text="Delete" />
-                    </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="Help">
-                    <items>
-                        <MenuItem mnemonicParsing="false" text="About" />
-                    </items>
+                    <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="USER"/>
+                    </graphic>
                 </Menu>
             </menus>
             <GridPane.margin>
-                <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0" />
+                <Insets bottom="-10.0" left="-10.0" right="-10.0" top="-10.0"/>
             </GridPane.margin>
         </MenuBar>
-        <Label text="Puntuación mínima:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
-        <Label text="Fecha de salida:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="4" GridPane.valignment="BOTTOM" />
-        <Label text="Género:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="6" GridPane.valignment="BOTTOM" />
-        <Label text="Editorial:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="8" GridPane.valignment="BOTTOM" />
-        <ComboBox GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="9">
+        <Label text="Puntuación mínima:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="2"
+               GridPane.valignment="BOTTOM"/>
+        <Label text="Fecha de salida:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="4"
+               GridPane.valignment="BOTTOM"/>
+        <Label text="Género:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="6"
+               GridPane.valignment="BOTTOM"/>
+        <Label text="Editorial:" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="8"
+               GridPane.valignment="BOTTOM"/>
+        <ComboBox fx:id="jcbEditorial" onAction="#filtrarEditorial" GridPane.columnIndex="2" GridPane.columnSpan="3"
+                  GridPane.rowIndex="9">
             <GridPane.margin>
-                <Insets left="10.0" right="10.0" />
+                <Insets left="10.0" right="10.0"/>
             </GridPane.margin>
         </ComboBox>
-        <Button fx:id="bPerfil" minWidth="60.0" mnemonicParsing="false" text="Perfil" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+        <Button fx:id="bPerfil" minWidth="60.0" mnemonicParsing="false" onAction="#aEditarPerfil"
+                GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
             <GridPane.margin>
-                <Insets left="5.0" right="5.0" />
+                <Insets left="5.0" right="5.0"/>
             </GridPane.margin>
+            <graphic>
+                <FontAwesomeIconView fill="WHITE" glyphName="USER" size="18"/>
+            </graphic>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </padding>
         </Button>
     </children>
     <padding>
-        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
     </padding>
 </GridPane>

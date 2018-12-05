@@ -1,12 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Bookdede" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="66fd67b0-72e0-47a6-ad28-6a27111187c8" name="Default Changelist" comment="Project Updated">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Bookdede.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/controlsfx_8_40_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fontawesomefx_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/Bookdede.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/Bookdede.jnlp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede.jnlp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/Bookdede" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/app/Bookdede.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/libpackager.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/COPYRIGHT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/THIRDPARTYLICENSEREADME-JAVAFX.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/THIRDPARTYLICENSEREADME.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/Welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/jli/libjli.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/jvm.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libattach.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libavplugin-53.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libavplugin-54.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libavplugin-55.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libavplugin-56.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libavplugin-57.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libavplugin-ffmpeg-56.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libavplugin-ffmpeg-57.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libawt.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libawt_headless.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libawt_xawt.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libbci.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libdcpr.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libdecora_sse.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libdeploy.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libdt_socket.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libfontmanager.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libfxplugins.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libglass.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libglib-lite.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libgstreamer-lite.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libhprof.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libinstrument.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libj2gss.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libj2pcsc.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libj2pkcs11.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjaas_unix.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjava.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjava_crw_demo.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjavafx_font.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjavafx_font_freetype.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjavafx_font_pango.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjavafx_font_t2k.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjavafx_iio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjawt.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjdwp.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjfr.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjfxmedia.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjfxwebkit.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjpeg.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjsdt.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjsig.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjsound.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libjsoundalsa.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libkcms.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/liblcms.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libmanagement.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libmlib_image.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libnet.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libnio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libnpt.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libprism_common.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libprism_es2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libprism_sw.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libresource.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libsaproc.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libsctp.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libsplashscreen.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libsunec.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libt2k.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libunpack.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libverify.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/libzip.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/server/Xusage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/server/libjsig.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/amd64/server/libjvm.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/calendars.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/classlist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/cmm/CIEXYZ.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/cmm/GRAY.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/cmm/LINEAR_RGB.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/cmm/PYCC.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/cmm/sRGB.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/content-types.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/currency.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/ext/meta-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/flavormap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fontconfig.RedHat.5.bfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fontconfig.RedHat.5.properties.src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fontconfig.RedHat.6.bfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fontconfig.RedHat.6.properties.src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fontconfig.SuSE.10.bfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fontconfig.SuSE.10.properties.src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fontconfig.SuSE.11.bfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fontconfig.SuSE.11.properties.src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fontconfig.Turbo.bfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fontconfig.Turbo.properties.src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fontconfig.bfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fontconfig.properties.src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fonts/LucidaBrightDemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fonts/LucidaBrightDemiItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fonts/LucidaBrightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fonts/LucidaBrightRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fonts/LucidaSansDemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fonts/LucidaSansRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fonts/LucidaTypewriterBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fonts/LucidaTypewriterRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/fonts/fonts.dir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/hijrah-config-umalqura.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/images/cursors/cursors.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/images/cursors/invalid32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/images/cursors/motif_CopyDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/images/cursors/motif_CopyNoDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/images/cursors/motif_LinkDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/images/cursors/motif_LinkNoDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/images/cursors/motif_MoveDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/images/cursors/motif_MoveNoDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/images/icons/sun-java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/images/icons/sun-java_HighContrast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/images/icons/sun-java_HighContrastInverse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/images/icons/sun-java_LowContrast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/jexec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/jfr/default.jfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/jfr/profile.jfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/jvm.hprof.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/de/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/es/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/fr/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/it/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/ja/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/ko.UTF-8/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/ko/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/pt_BR/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/sv/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/zh.GBK/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/zh/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/zh_HK.BIG5HK/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/zh_TW.BIG5/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/locale/zh_TW/LC_MESSAGES/sunw_java_plugin.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/management/jmxremote.access" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/management/jmxremote.password.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/management/management.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/management/snmp.acl.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/meta-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/net.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/oblique-fonts/LucidaSansDemiOblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/oblique-fonts/LucidaSansOblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/oblique-fonts/LucidaTypewriterBoldOblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/oblique-fonts/LucidaTypewriterOblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/oblique-fonts/fonts.dir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/psfont.properties.ja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/psfontj2d.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/security/blacklist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/security/blacklisted.certs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/security/cacerts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/security/java.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/security/java.security" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/security/javaws.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/security/trusted.libraries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/sound.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/Bookdede/runtime/lib/tzdb.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/bookdede-1.0-1.x86_64.rpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/bundles/bookdede-1.0.deb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Bookdede/jb-jfx.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/.idea/artifacts/Bookdede.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/.idea/libraries/controlsfx_8_40_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/.idea/libraries/fontawesomefx_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/Harry Potter Y La Piedra Filosofal.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/editarUsuario.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/img/libro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/img/wallpaperApp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/editarUsuario.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/res/img/libro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/res/img/wallpaperApp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/editarUsuario.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/img/libro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/img/wallpaperApp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/fxml/editarUsuario.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/img/libro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/img/wallpaperApp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/AgregarLibro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/LibroActual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/editarUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Bookdede.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bookdede.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/.idea/Bookdede.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/.idea/Bookdede.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Bookdede/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/agregarLibro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/agregarLibro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/contacto.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/libro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/libro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/perfil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/perfil.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/registro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/fxml/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/agregarLibro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/agregarLibro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/contacto.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/libro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/libro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/perfil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/perfil.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/registro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/res/fxml/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/agregarLibro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/agregarLibro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/contacto.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/libro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/libro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/perfil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/perfil.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/registro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookdede/src/res/fxml/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/fxml/agregarLibro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/fxml/agregarLibro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/fxml/contacto.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/fxml/libro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/fxml/libro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/fxml/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/fxml/perfil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/fxml/perfil.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/fxml/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/fxml/principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/fxml/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/fxml/registro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/fxml/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/MySQLConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/MySQLConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Registro.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,25 +255,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/MySQLConnect.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="239">
+              <caret line="123" column="17" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#refrescar#0;class#Principal#0" />
+                <element signature="e#1447#1543#1" />
+                <element signature="class#MyEventHandler#0;class#Principal#0" />
+                <element signature="method#handle#0;class#MyEventHandler#0;class#Principal#0" />
+                <element signature="e#1869#2164#0" />
+                <element signature="e#2187#2239#0" />
+                <element signature="method#initialize#0;class#Principal#0" />
+                <element signature="e#2486#2581#1" />
+                <element signature="e#2595#2691#0" />
+                <element signature="e#2715#2759#0" />
+                <element signature="method#buscarPorTecleo#0;class#Principal#0" />
+                <element signature="method#aEditarPerfil#0;class#Principal#0" />
+                <element signature="method#hideDefaultScreen#0;class#Principal#0" />
+                <element signature="method#cerrarSesion#0;class#Principal#0" />
+                <element signature="method#aAgregarLibro#0;class#Principal#0" />
+                <element signature="method#hideDefaultScreen#1;class#Principal#0" />
+                <element signature="method#rellenarGeneros#0;class#Principal#0" />
+                <element signature="method#rellenarEditorial#0;class#Principal#0" />
+                <element signature="method#filtrarDescargable#0;class#Principal#0" />
+                <element signature="method#filtrarFecha#0;class#Principal#0" />
+                <element signature="method#getMySQLFormatoFecha#0;class#Principal#0" />
+                <element signature="method#filtrarPuntuacion#0;class#Principal#0" />
+                <element signature="method#filtrarGenero#0;class#Principal#0" />
+                <element signature="method#filtrarEditorial#0;class#Principal#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="240">
+              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/res/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/LibroActual.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1000">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#LibroActual#0;class#LibroActual#0" />
+                <element signature="method#initialize#0;class#LibroActual#0" />
+                <element signature="method#mostrarDatos#0;class#LibroActual#0" />
+                <element signature="method#descargarPDF#0;class#LibroActual#0" />
+                <element signature="method#volverAPrincipal#0;class#LibroActual#0" />
+                <element signature="method#alert#0;class#LibroActual#0" />
+                <element signature="method#eliminarLibro#0;class#LibroActual#0" />
+                <element signature="method#setFav#0;class#LibroActual#0" />
+                <element signature="method#quitarFav#0;class#LibroActual#0" />
+                <element signature="method#consultarFavorito#0;class#LibroActual#0" />
+                <element signature="method#agregarFav#0;class#LibroActual#0" />
+                <element signature="method#agregarPendiente#0;class#LibroActual#0" />
+                <element signature="method#agregarLeido#0;class#LibroActual#0" />
+                <element signature="method#agregarFavorito#0;class#LibroActual#0" />
               </folding>
             </state>
           </provider>
@@ -53,9 +346,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>DAD</find>
+      <find>butto</find>
+      <find>jtfISBN</find>
+      <find>menuBar</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>jtfNombre</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -74,37 +371,44 @@
       <list>
         <option value="$PROJECT_DIR$/src/res/sample.fxml" />
         <option value="$PROJECT_DIR$/src/res/controllers/Controller.java" />
-        <option value="$PROJECT_DIR$/src/res/fxml/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/res/fxml/libro.fxml" />
         <option value="$PROJECT_DIR$/src/res/fxml/contacto.fxml" />
-        <option value="$PROJECT_DIR$/src/res/fxml/login.fxml" />
-        <option value="$PROJECT_DIR$/src/res/fxml/registro.fxml" />
-        <option value="$PROJECT_DIR$/src/res/fxml/principal.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Login.java" />
-        <option value="$PROJECT_DIR$/src/sample/Registro.java" />
         <option value="$PROJECT_DIR$/src/sample/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/Principal.java" />
         <option value="$PROJECT_DIR$/src/res/fxml/agregarLibro.java" />
         <option value="$PROJECT_DIR$/src/res/fxml/AgregarLibro.java" />
-        <option value="$PROJECT_DIR$/src/res/fxml/agregarLibro.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/MySQLConnect.java" />
+        <option value="$PROJECT_DIR$/src/sample/Login.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/res/fxml/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/res/fxml/registro.fxml" />
+        <option value="$PROJECT_DIR$/src/res/fxml/login.fxml" />
+        <option value="$PROJECT_DIR$/src/res/fxml/agregarLibro.fxml" />
+        <option value="$PROJECT_DIR$/src/res/fxml/perfil.fxml" />
+        <option value="$PROJECT_DIR$/src/res/fxml/editarUsuario.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/editarUsuario.java" />
+        <option value="$PROJECT_DIR$/src/sample/Libro.java" />
+        <option value="$PROJECT_DIR$/src/sample/Registro.java" />
+        <option value="$PROJECT_DIR$/src/res/fxml/libro.fxml" />
+        <option value="$PROJECT_DIR$/src/res/fxml/principal.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/AgregarLibro.java" />
+        <option value="$PROJECT_DIR$/src/sample/LibroActual.java" />
+        <option value="$PROJECT_DIR$/src/res/css/main.css" />
+        <option value="$PROJECT_DIR$/src/sample/Principal.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="559" />
-    <option name="y" value="85" />
-    <option name="width" value="673" />
-    <option name="height" value="555" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="25" />
+    <option name="width" value="683" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,25 +423,19 @@
             </path>
             <path>
               <item name="Bookdede" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bookdede" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bookdede" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543938561816" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Clase/2DAM/AED/UT2/Ejercicios/Actividad6/mysql-connector-java-8.0.13.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544016057494" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/controlsfx-8.40.14/controlsfx-8.40.14.jar!/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -219,7 +517,7 @@
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -228,8 +526,8 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848485" visible="true" weight="0.32247558" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848485" weight="0.3306189" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -247,6 +545,38 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2159091" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848485" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924242" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924242" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50151515" side_tool="true" weight="0.46091205" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Updated" />
@@ -277,118 +607,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/res/fxml/perfil.fxml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/res/controllers" />
     <entry file="file://$PROJECT_DIR$/Bookdede.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/res/fxml/libro.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/res/fxml/contacto.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/res/fxml/registro.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="145" column="29" lean-forward="true" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/res/fxml/sample.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="79" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="79" />
-          <folding>
-            <element signature="n#cursor#0;n#Button#1;n#children#0;n#GridPane#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/res/fxml/login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Registro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="127" column="52" lean-forward="true" selection-start-line="127" selection-start-column="52" selection-end-line="127" selection-end-column="52" />
-          <folding>
-            <element signature="method#initialize#0;class#Registro#0" />
-            <element signature="method#setLimitesSpiner#0;class#Registro#0" />
-            <element signature="method#rellenarProvincias#0;class#Registro#0" />
-            <element signature="method#agruparRadioButtons#0;class#Registro#0" />
-            <element signature="method#registrarUsuario#0;class#Registro#0" />
-            <element signature="method#comprobarUsuario#0;class#Registro#0" />
-            <element signature="method#insertarUsuario#0;class#Registro#0" />
-            <element signature="method#volverAInicio#0;class#Registro#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding>
-            <element signature="method#comprobarUsuario#0;class#Login#0" />
-            <element signature="method#loginAPrincipal#0;class#Login#0" />
-            <element signature="method#alert#0;class#Login#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/res/fxml/principal.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="49" column="107" selection-start-line="49" selection-start-column="107" selection-end-line="49" selection-end-column="107" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/fxml/contacto.fxml" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -398,44 +624,260 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/res/fxml/agregarLibro.java" />
     <entry file="file://$PROJECT_DIR$/src/res/fxml/AgregarLibro.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Principal.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/MySQLConnect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        <state relative-caret-position="80">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk1.8.0_191/javafx-src.zip!/javafx/scene/control/Labeled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="205" column="22" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk1.8.0_191/javafx-src.zip!/javafx/scene/control/ComboBoxBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="150" column="19" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/fxml/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/fxml/perfil.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk1.8.0_191/javafx-src.zip!/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="6999" column="50" selection-start-line="6999" selection-start-column="50" selection-end-line="6999" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/fxml/registro.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="168" column="11" selection-start-line="168" selection-start-column="11" selection-end-line="168" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Registro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
           <folding>
-            <element signature="method#initialize#0;class#Principal#0" />
-            <element signature="e#729#761#1" />
-            <element signature="method#agregarLibro#0;class#Principal#0" />
-            <element signature="method#hideDefaultScreen#0;class#Principal#0" />
+            <element signature="method#initialize#0;class#Registro#0" />
+            <element signature="e#1212#1382#0" />
+            <element signature="e#1406#1450#0" />
+            <element signature="method#rellenarProvincias#0;class#Registro#0" />
+            <element signature="e#1911#1981#1" />
+            <element signature="method#agruparRadioButtons#0;class#Registro#0" />
+            <element signature="e#2978#3178#1" />
+            <element signature="method#comprobarUsuario#0;class#Registro#0" />
+            <element signature="e#3523#3648#1" />
+            <element signature="method#alert#0;class#Registro#0" />
+            <element signature="e#3802#3967#1" />
+            <element signature="e#4002#4173#1" />
+            <element signature="method#insertarUsuario#0;class#Registro#0" />
+            <element signature="e#5170#5324#1" />
+            <element signature="e#5330#5408#1" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/fxml/principal.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/res/fxml/agregarLibro.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="318">
+          <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/fxml/editarUsuario.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="22" column="61" lean-forward="true" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/editarUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="method#alert#0;class#editarUsuario#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/fxml/login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="142">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/MySQLConnect.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/AgregarLibro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="-332">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#setLimitesSpiner#0;class#AgregarLibro#0" />
+            <element signature="method#buscarPDF#0;class#AgregarLibro#0" />
+            <element signature="method#buscarImagen#0;class#AgregarLibro#0" />
+            <element signature="method#alert#0;class#AgregarLibro#0" />
+            <element signature="method#volverAInicio#0;class#AgregarLibro#0" />
+            <element signature="e#5481#5482#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/fxml/libro.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="111" column="109" selection-start-line="111" selection-start-column="109" selection-end-line="111" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Libro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="61" column="4" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
+          <folding>
+            <element signature="method#closeLoginScreen#0;class#Login#0" />
+            <element signature="method#aRegistro#0;class#Login#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="123" column="17" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+          <folding>
+            <element signature="method#refrescar#0;class#Principal#0" />
+            <element signature="e#1447#1543#1" />
+            <element signature="class#MyEventHandler#0;class#Principal#0" />
+            <element signature="method#handle#0;class#MyEventHandler#0;class#Principal#0" />
+            <element signature="e#1869#2164#0" />
+            <element signature="e#2187#2239#0" />
+            <element signature="method#initialize#0;class#Principal#0" />
+            <element signature="e#2486#2581#1" />
+            <element signature="e#2595#2691#0" />
+            <element signature="e#2715#2759#0" />
+            <element signature="method#buscarPorTecleo#0;class#Principal#0" />
+            <element signature="method#aEditarPerfil#0;class#Principal#0" />
+            <element signature="method#hideDefaultScreen#0;class#Principal#0" />
+            <element signature="method#cerrarSesion#0;class#Principal#0" />
+            <element signature="method#aAgregarLibro#0;class#Principal#0" />
+            <element signature="method#hideDefaultScreen#1;class#Principal#0" />
+            <element signature="method#rellenarGeneros#0;class#Principal#0" />
+            <element signature="method#rellenarEditorial#0;class#Principal#0" />
+            <element signature="method#filtrarDescargable#0;class#Principal#0" />
+            <element signature="method#filtrarFecha#0;class#Principal#0" />
+            <element signature="method#getMySQLFormatoFecha#0;class#Principal#0" />
+            <element signature="method#filtrarPuntuacion#0;class#Principal#0" />
+            <element signature="method#filtrarGenero#0;class#Principal#0" />
+            <element signature="method#filtrarEditorial#0;class#Principal#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/LibroActual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="method#LibroActual#0;class#LibroActual#0" />
+            <element signature="method#initialize#0;class#LibroActual#0" />
+            <element signature="method#mostrarDatos#0;class#LibroActual#0" />
+            <element signature="method#descargarPDF#0;class#LibroActual#0" />
+            <element signature="method#volverAPrincipal#0;class#LibroActual#0" />
+            <element signature="method#alert#0;class#LibroActual#0" />
+            <element signature="method#eliminarLibro#0;class#LibroActual#0" />
+            <element signature="method#setFav#0;class#LibroActual#0" />
+            <element signature="method#quitarFav#0;class#LibroActual#0" />
+            <element signature="method#consultarFavorito#0;class#LibroActual#0" />
+            <element signature="method#agregarFav#0;class#LibroActual#0" />
+            <element signature="method#agregarPendiente#0;class#LibroActual#0" />
+            <element signature="method#agregarLeido#0;class#LibroActual#0" />
+            <element signature="method#agregarFavorito#0;class#LibroActual#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -445,10 +887,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Bookdede</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -516,7 +960,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-8.0.13</last-edited>
+          <last-edited>controlsfx-8.40.14</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
